@@ -1,0 +1,227 @@
+@import url("http://fonts.googleapis.com/earlyaccess/droidarabickufi.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	direction: rtl;
+    font-family: "Droid Arabic Kufi",Helvetica,Arial,sans-serif;
+}
+
+.top-nav {
+	width: 100%;
+	height: 32px;
+	background-color: #fff;
+	border-top: 2px solid #30ACBF;
+	border-bottom: 1px solid #e2e2e2; 
+}
+
+.container {
+	width: 955px;
+    margin: 0 auto;
+}
+
+.top-nav-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: right;
+}
+
+.top-nav-list li {
+	height: 32px;
+	display: inline-block;
+	padding: 0 7px;
+	margin-left: 5px;
+}
+
+.top-nav-list li:hover {
+	color: #fff;
+	background-color: #30ACBF;
+}
+
+.top-nav-list a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #666;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+.top-nav-list a:hover {
+	color: #fff;
+}
+
+.social-media {
+	height: 32px;
+	float: left;
+	text-align: center;
+}
+
+.social-media ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul.spicesocialwidget {float:right;}ul.spicesocialwidget li {float:left;list-style: none outside none;border:none;}ul.spicesocialwidget li a{background-color:transparent;background-image:url('http://4.bp.blogspot.com/-Pe-J5S7YCa0/UdXsJoN7GLI/AAAAAAAAL68/ongZAtcNF1E/s1600/spice-social-gadget-sprite.png');background-repeat:no-repeat;background-size:auto 96px;border:0 none;color:white;direction:ltr;display:block; height:32px;overflow:hidden;text-align:left;text-decoration:none;text-indent:-999em;transition:all 0.2s ease 0s;width:32px}.ie7 ul.spicesocialwidget li a, .ie8 ul.spicesocialwidget li a{background-image:url('http://4.bp.blogspot.com/-Pe-J5S7YCa0/UdXsJoN7GLI/AAAAAAAAL68/ongZAtcNF1E/s1600/spice-social-gadget-sprite.png' )}ul.spicesocialwidget li.facebook a{ background-position:0 0}ul.spicesocialwidget li.flickr a{ background-position:-32px 0}ul.spicesocialwidget li.dribbble a{ background-position:-64px 0}ul.spicesocialwidget li.googleplus a{ background-position:-96px 0}ul.spicesocialwidget li.linkedin a{ background-position:-128px 0}ul.spicesocialwidget li.pinterest a{ background-position:-160px 0}ul.spicesocialwidget li.rss a{ background-position:-192px 0}ul.spicesocialwidget li.skype a{ background-position:-224px 0}ul.spicesocialwidget li.twitter a{ background-position:-256px 0}ul.spicesocialwidget li.vimeo a{ background-position:-288px 0}ul.spicesocialwidget li.youtube a{ background-position:-320px 0}ul.spicesocialwidget li.facebook a:hover, #sidebar ul.spicesocialwidget li.facebook a:hover{ background-position:0 -32px}ul.spicesocialwidget li.flickr a:hover, #sidebar ul.spicesocialwidget li.flickr a:hover{ background-position:-32px -32px}ul.spicesocialwidget li.dribbble a:hover, #sidebar ul.spicesocialwidget li.dribbble a:hover{ background-position:-64px -32px}ul.spicesocialwidget li.googleplus a:hover, #sidebar ul.spicesocialwidget li.googleplus a:hover{ background-position:-96px -32px}ul.spicesocialwidget li.linkedin a:hover, #sidebar ul.spicesocialwidget li.linkedin a:hover{ background-position:-128px -32px}ul.spicesocialwidget li.pinterest a:hover, #sidebar ul.spicesocialwidget li.pinterest a:hover{ background-position:-160px -32px}ul.spicesocialwidget li.rss a:hover, #sidebar ul.spicesocialwidget li.rss a:hover{ background-position:-192px -32px}ul.spicesocialwidget li.skype a:hover, #sidebar ul.spicesocialwidget li.skype a:hover{ background-position:-224px -32px}ul.spicesocialwidget li.twitter a:hover, #sidebar ul.spicesocialwidget li.twitter a:hover{ background-position:-256px -32px}ul.spicesocialwidget li.vimeo a:hover, #sidebar ul.spicesocialwidget li.vimeo a:hover{ background-position:-288px -32px}ul.spicesocialwidget li.youtube a:hover, #sidebar ul.spicesocialwidget li.youtube a:hover{ background-position:-320px -32px}
+
+.logo img{
+	width: 220px;
+	height: 220px;
+	text-align: right;
+	margin-top: 15px;
+}
+
+.site-nav {
+	padding: 0;
+	margin: 15px 0 0;
+	list-style: none;
+	border-bottom: 2px solid #3a94e5;
+}
+
+.site-nav li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.site-nav a {
+	height: 100%;
+	text-decoration: none;
+	font-size: 20px;
+	color: #666;
+	padding: 2px 9px;
+	border-radius: 2px 2px 0;
+}
+
+.site-nav a:hover {
+	color: #fff;
+	background-color: #3a94e5;
+}
+.home a {
+	color: #fff;
+	background-color: #30ACBF;
+}
+
+.posts {
+	width: 640px;
+	float: right;
+	border: 2px solid #000;
+	margin-top: 25px;
+}
+.slider {
+	width: 640px;
+	text-align: right;
+}
+
+#container {
+	width: 955px;
+    margin: 0 auto;
+}
+
+.post {
+	widows: 600px;
+	height: 450px;
+
+}
+
+.post-title a {
+    font-size: 3225px;
+    color: #343434;
+    text-decoration: none;
+    text-align: right;
+    margin: 0
+}
+
+.post img{
+	width: 350px;
+	height: 210px;
+	margin-right: 5px;
+	float: right; 
+}
+
+.left-container {
+	width: 285px;
+	height: 1000px;
+	float: left;
+	border: 2px solid #000;
+	margin-top: 25px;
+}
+
+.facebook-box {
+	width: 285px;
+	height: 250px;
+	border: 1px solid #000;
+}
+
+.future-posts {
+	width: 285px;
+	height: 700px;
+	border: 1px solid #000;
+}
+
+.div-title {
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 0;
+	margin: 0;
+	background-color: #3a94e5;
+	text-align: center;
+}
+
+.left-post {
+	width: 285px;
+	height: 100px;
+	margin-top: 8px;
+}
+
+.left-post img {
+	width: 100px;
+	height: 75px;
+	margin-right: 7px;
+	float: right;
+	}
+
+.left-post-title {
+}
+.left-post-title a {
+	text-align: right;
+	margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	width: 100%;
+	background-color : #3a94e5;
+}
+
+footer p {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
